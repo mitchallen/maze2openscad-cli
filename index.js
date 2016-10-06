@@ -25,8 +25,6 @@ function usage() {
 
 function main(args) {
 
-    console.log(args);
-
     let cols = parseInt(args[0]);
     let rows = parseInt(args[1]);
     let filePath = args[2];
@@ -38,4 +36,7 @@ function main(args) {
     mazeGenerator.printBoard();
 
     mazeGenerator.writeDataFile(filePath); 
+
+    console.log("\nINSTRUCTIONS: \n\n* Include the %s file in maze.scad\n* maze.scad can be found here: https://github.com/mitchallen/maze2openscad-cli/", filePath );
+    console.log("* Open in OpenSCAD to see and export the 3D printable maze\n\n");
 }
