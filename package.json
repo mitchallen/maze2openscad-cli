@@ -29,6 +29,6 @@
     "supertest": "^2.0.0"
   },
   "dependencies": {
-    "@mitchallen/maze2openscad": "^0.1.1"
+    "@mitchallen/maze2openscad": "^0.1.2"
   }
 }
