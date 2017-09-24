@@ -107,6 +107,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.2.5
+
+* Updated code coverage script
+
 #### Version 0.2.4
 
 * Added coverage script

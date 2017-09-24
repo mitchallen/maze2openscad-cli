@@ -10,7 +10,7 @@
     "//": "To use: npm run test-nodemon (assumes global location of mocha)",
     "start": "node index.js",
     "test": "mocha --recursive --timeout 20000",
-    "coverage": "./node_modules/.bin/istanbul cover _mocha -- -R spec test/**/*",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec ./test/*-test.js",
     "test-nodemon": "nodemon /usr/local/bin/mocha --timeout 5000",
     "test-debug": "nodemon /usr/local/bin/mocha -g '@DEBUG' --recursive --timeout 20000",
     "test-jenkins": "mocha --recursive --timeout 20000 -R xunit test/ > test-reports.xml",
