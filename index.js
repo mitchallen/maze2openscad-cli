@@ -28,7 +28,7 @@ function usage() {
 
 function main(args) {
 
-    let type = args[0];;
+    let type = args[0];
     let cols = 0;
     let rows = 0;
     let filePath = null;
