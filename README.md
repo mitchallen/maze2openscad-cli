@@ -3,7 +3,25 @@
 ==
 Code generate a maze as an OpenSCAD include file via the command line
 --
-* * *
+
+<p align="left">
+  <a href="https://circleci.com/gh/mitchallen/maze2openscad-cli">
+    <img src="https://img.shields.io/circleci/project/github/mitchallen/maze2openscad-cli.svg" alt="Continuous Integration">
+  </a>
+  <a href="https://codecov.io/gh/mitchallen/maze2openscad-cli">
+    <img src="https://codecov.io/gh/mitchallen/maze2openscad-cli/branch/master/graph/badge.svg" alt="Coverage Status">
+  </a>
+  <a href="https://npmjs.org/package/@mitchallen/maze2openscad-cli">
+    <img src="http://img.shields.io/npm/dt/@mitchallen/maze2openscad-cli.svg?style=flat-square" alt="Downloads">
+  </a>
+  <a href="https://npmjs.org/package/@mitchallen/maze2openscad-cli">
+    <img src="http://img.shields.io/npm/v/@mitchallen/maze2openscad-cli.svg?style=flat-square" alt="Version">
+  </a>
+  <a href="https://npmjs.com/package/@mitchallen/maze2openscad-cli">
+    <img src="https://img.shields.io/github/license/mitchallen/maze2openscad-cli.svg" alt="License"></a>
+  </a>
+</p>
+
 ## Installation
 
 You must use __npm__ __2.7.0__ or higher because of the scoped package name.
@@ -88,6 +106,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.2.2
+
+* Added CircleCI support and badges in README
 
 #### Version 0.2.1
 
