@@ -46,4 +46,6 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['jshint']);
     grunt.registerTask('pubinit', ['jshint','shell:pubinit']);
     grunt.registerTask('publish', ['jshint','bump','shell:publish']);
+    grunt.registerTask('pubminor', ['jshint','bump:minor','shell:publish']);
+    grunt.registerTask('pubmajor', ['jshint','build','bump:major','shell:publish']);
 };

@@ -12,7 +12,9 @@
     "test": "mocha --recursive --timeout 20000",
     "test-nodemon": "nodemon /usr/local/bin/mocha --timeout 5000",
     "test-debug": "nodemon /usr/local/bin/mocha -g '@DEBUG' --recursive --timeout 20000",
-    "test-jenkins": "mocha --recursive --timeout 20000 -R xunit test/ > test-reports.xml"
+    "test-jenkins": "mocha --recursive --timeout 20000 -R xunit test/ > test-reports.xml",
+    "demo": "node index.js square 5 6 demo/demo-maze-data.scad",
+    "demo-circle": "node index.js circle ./test/input/circle-demo.json demo/demo-circle-maze-data.scad"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "author": "Mitch Allen <npm@mitchallen.com> (http://mitchallen.com)",
   "license": "ISC",
   "devDependencies": {
+    "child_process": "^1.0.2",
     "grunt": "^1.0.1",
     "grunt-bump": "^0.8.0",
     "grunt-contrib-jshint": "^1.0.0",
@@ -29,6 +32,6 @@
     "supertest": "^2.0.0"
   },
   "dependencies": {
-    "@mitchallen/maze2openscad": "^0.1.2"
+    "@mitchallen/maze2openscad": "^0.2.3"
   }
 }

@@ -1,0 +1,13 @@
+{
+    "rings": 5,
+    "ringHeight": 6,
+    "ringThickness": 1.5,
+    "outerThickness": 3,
+    "ringCutWidth": 5,
+    "innerRadius": 6,
+    "middleRadius": 18,
+    "middleHole": false,
+    "spokeWidth": 0.5,
+    "hasFloor": false,
+    "floorHeight": 2
+}

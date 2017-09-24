@@ -1,7 +1,8 @@
 // Author: Mitch Allen
 // File: maze.scad
 
-include <maze-data.scad>
+// include <maze-data.scad>
+include <demo/demo-maze-data.scad>
 
 cellSize = 10;
 wallSize = 3;
