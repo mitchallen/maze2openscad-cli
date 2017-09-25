@@ -59,7 +59,7 @@ $ maze2openscad-cli square 10 20 demo-maze-data.scad
         
 * Start OpenSCAD and open __maze.scad__
 * You should see a generated maze
-* Leave OpenSCAD running and run execute the command line again to see a new maze appear in OpenSCAD
+* Leave OpenSCAD running and run the command line again to see a new maze appear in OpenSCAD
 
 ### Circle Maze
 
@@ -81,7 +81,7 @@ Windows users may need to adjust the input path to use drive letters, etc.
         
 * Start OpenSCAD and open __maze-circle.scad__
 * You should see a generated maze
-* Leave OpenSCAD running and run execute the command line again to see a new maze appear in OpenSCAD
+* Leave OpenSCAD running and run the command line again to see a new maze appear in OpenSCAD
 
 #### Circle Options
 
@@ -135,6 +135,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.2.9
+
+* Fixed type-o in readme
 
 #### Version 0.2.8
 
