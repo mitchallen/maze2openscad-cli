@@ -4,6 +4,9 @@
 Code generate a maze as an OpenSCAD include file via the command line
 --
 
+<img src="https://cdn.rawgit.com/mitchallen/maze2openscad-cli/12f83e5/examples/media/maze-cad.jpg" width="500" />
+</p>
+
 <p align="left">
   <a href="https://circleci.com/gh/mitchallen/maze2openscad-cli">
     <img src="https://img.shields.io/circleci/project/github/mitchallen/maze2openscad-cli.svg" alt="Continuous Integration">
@@ -132,6 +135,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.2.8
+
+* Added image to readme
 
 #### Version 0.2.7
 
