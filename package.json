@@ -1,6 +1,6 @@
 {
   "name": "@mitchallen/maze2openscad-cli",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Code generate a maze as an OpenSCAD include file via the command line",
   "preferGlobal": true,
   "bin": {
